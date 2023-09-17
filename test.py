@@ -6,10 +6,10 @@ class TestCalc:
        self.calc = Calculator
 
    def test_adding_success(self):
-       assert self.calc.adding(self, 12, 4) == 16         #сложение
+       assert self.calc.adding(self, 12, 4) == 16         #сумма
 
    def test_subtraction_success(self):
-       assert self.calc.subtraction(self, 12, 4) == 8     #вычитание
+       assert self.calc.subtraction(self, 12, 4) == 8     #разность
 
    def test_division_success(self):                       #деление
         assert self.calc.division(self, 12, 4) == 3.0
